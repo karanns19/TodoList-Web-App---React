@@ -11,8 +11,8 @@ export default function App() {
   return (
     <div className="App">
       <h1>Task Manager !</h1>
-      <TodoList todos={todos} setTodos={setTodos} />
       <AddTodo setTodos={setTodos} />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
